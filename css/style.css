@@ -53,6 +53,30 @@ table {
 	box-sizing: border-box;
 }
 
+header {
+	display: flex;
+	height: 15vh;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+
+header ul {
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+}
+
+header ul li {
+	width: 150px;
+	text-decoration: none;
+}
+
+header a {
+	text-decoration: none;
+}
 
 .boite {
 	display: flex;
@@ -65,6 +89,7 @@ table {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-left: 25px;
 
 
 }
@@ -75,6 +100,6 @@ table {
     max-height:250px;
     width: auto;
 	height: auto;
-	margin-left: 25px;
+	
 }
 
