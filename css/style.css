@@ -76,6 +76,23 @@ header ul li {
 
 header a {
 	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+header a:hover,
+header a:active {
+	font-size: 1.2em;
+}
+
+main h1 {
+	font-family: 'Oswald', sans-serif;
+	line-height: 3em;
+	font-size: 4em;
+	text-decoration: underline;
+	text-align: center;
 }
 
 .boite {
@@ -96,10 +113,55 @@ header a {
 
 .products img {
 	display: block;
-    max-width:230px;
+    max-width:100%;
     max-height:250px;
     width: auto;
 	height: auto;
+	margin-bottom: 20px;
 	
 }
 
+
+@media screen and (max-width: 768px) {
+
+	header ul{
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		margin-left: 3%;
+	}
+
+	header ul li a {
+		font-size: 1.5em;
+	}
+
+	main> h1 {
+		font-size: 2.5em;
+		text-align: center;
+	
+	}
+
+	.boite {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: none !important;
+	}
+
+	.products {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.products img {
+		width: 80%;
+		height: auto !important;
+		max-height: 80%;
+		margin-left: none;
+		margin-right: none;
+	}
+	
+}
