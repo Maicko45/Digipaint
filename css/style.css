@@ -121,6 +121,23 @@ main h1 {
 	
 }
 
+form {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-top: 30px;
+	border-top: 0.5px solid darkgray;
+	top: 100;
+}
+
 
 @media screen and (max-width: 768px) {
 
