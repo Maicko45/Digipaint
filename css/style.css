@@ -87,6 +87,11 @@ header a:active {
 	font-size: 1.2em;
 }
 
+main {
+	width: 100vw;
+	height: 75vh;
+}
+
 main h1 {
 	font-family: 'Oswald', sans-serif;
 	line-height: 3em;
@@ -133,13 +138,14 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	margin-top: 12%;
 	border-top: 0.5px solid darkgray;
+	width: 100vw;
+	height: 7vh;
 	
 }
 
 .contact {
-	height: 55vh;
+	height: 75vh;
 }
 
 .contact p,
@@ -165,7 +171,7 @@ footer {
 	transition-delay: 0.09s;
 }
 .about{
-	height: 55vh;
+	height: 75vh;
 }
 
 @media screen and (max-width: 768px) {
