@@ -30,6 +30,23 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	--color-text: #2a272f;
+	--color-bg: #fff;
+	--color-link: #000;
+	--color-link-hover: #444;
+	--color-revealer: rgb(119, 119, 119);
+	--color-side-text: #ddd;
+	--color-toggle-bg: #333;
+	--color-toggle: #fff;
+	--color-title-full: #aaa;
+	--color-description-full: #929292;
+	--color-lines: #f3f3f3;
+	font-family: 'Playfair Display', serif;
+	min-height: 100vh;
+	color: #57585c;
+	color: var(--color-text);
+	background-color: #fff;
+	background-color: var(--color-bg);
 }
 ol, ul {
 	list-style: none;
